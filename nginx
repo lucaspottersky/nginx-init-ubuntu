@@ -75,7 +75,7 @@ test -r $LSB_FUNC || {
 #                               Consts
 #------------------------------------------------------------------------------
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
-NGINXPATH=/usr/local/nginx
+NGINXPATH=/opt/nginx
 DAEMON=$NGINXPATH/sbin/nginx
 
 PS="nginx"
